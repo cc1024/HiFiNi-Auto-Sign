@@ -5,7 +5,7 @@ on:
         branches:
             - master
     schedule:
-        - cron: '0 0 * * *'
+        - cron: '12 2 * * *'   # 对应中国时间每天上午10:12运行一次
 
 jobs:
     build:
